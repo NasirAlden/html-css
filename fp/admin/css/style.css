@@ -1,0 +1,132 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	direction:rtl;
+	background:#f9f9f9;
+}
+.loginAll{
+	width:600px;
+	margin:90px auto;
+	background:#fff;
+	border:1px solid #eee;
+	padding:10px;
+}
+input[type=text]{
+	padding:7px;
+	width:560px;
+	border:1px solid #eee;
+	font-family:tahoma;
+	font-size:12px;
+	margin-bottom:10px;
+	color:#ccc;
+	margin-bottom:10px;
+	margin-top:5px;
+}
+input[type=password]{
+	padding:7px;
+	width:585px;
+	border:1px solid #eee;
+	font-family:tahoma;
+	font-size:12px;
+	margin-bottom:10px;
+}
+input[type=file]{
+	padding:7px;
+	width:585px;
+	border:1px solid #eee;
+	font-family:tahoma;
+	font-size:12px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+input[type=submit]{
+	padding:7px;
+	width:300px;
+	border:1px solid #217aad;
+	font-family:tahoma;
+	font-size:12px;
+	background:#51a9bc;
+	color:#fff;
+	margin:0px 150px;
+	cursor:pointer;
+}
+.ok{
+	background:#5bcf71;
+	padding:15px 10px;
+	text-align:center;
+	font-family:tahoma;
+	color:#fff;
+	font-size:15px;
+	border:1px solid #2da845;
+}
+.all{
+	width:600px;
+	margin:50px auto;
+}
+.adminMenu ul{
+	list-style:none;
+	overflow:hidden;
+}
+.adminMenu ul li{
+	float:right;
+	padding:5px;
+	text-decoration:none;
+	font-family:tahoma;
+	background:#4cb9eb;
+	font-size:12px;
+	margin-left:10px;
+}
+.adminMenu ul li a{
+	text-decoration:none;
+	font-family:tahoma;
+	font-size:12px;
+	color:#fff;
+}
+.adminBody{
+	background:#fff;
+	padding:10px;
+	font-family:tahoma;
+	font-size:13px;
+	color:#555;
+	border:1px solid #ddd;
+}
+label{
+	text-align:right;
+	font-family:tahoma;
+	color:#555;
+	font-size:13px;
+	font-weight:bold;
+	margin-bottom:10px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
