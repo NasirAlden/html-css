@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+}
+
+body {
+    padding-top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(211 226 245);
+    width: 100vw;
+    height: 100vh;
+}
+
+.blue-parent {
+    background-color: rgb(69 162 195);
+    width: 85vw;
+    height: 20vh;
+    margin: auto;
+    margin-top: 35vh;
+    position: relative;
+}
+
+.nav {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    right: 20%;
+    top: 20%;
+    font-family: 'Maybe Coffee', sans-serif;
+}
+
+.image {
+    position: absolute;
+    left: 15vw;
+    top: -15vh;
+}
+
+img {
+    width: 35vw;
+    height: 28vh;
+    box-shadow: 0px 0px 20px 2px gray;
+    border-radius: 30px;
+}
+
+.head {
+    color: coral;
+    font-family: 'Maybe Coffee', sans-serif;
+    position: absolute;
+    top: -20vh;
+    left: 15vw;
+}
+
+.welcome {
+    color: rgb(202, 182, 71);
+    font-family: 'Maybe Coffee', sans-serif;
+    position: absolute;
+    top: 110%;
+    left: 15vw;
+}
+
+.video {
+    position: absolute;
+    top: 140%;
+    left: 15vw;
+    box-shadow: 0px 25px 30px 12px #eb791c;
+    border-radius: 0px 0px 15px 10px;
+}
+
+.video>video {
+    border-radius: 0px 0px 15px 10px;
+    height: auto;
+    margin-bottom: -3px;
+}
+
+@import url('http://fonts.cdnfonts.com/css/maybe-coffee');
