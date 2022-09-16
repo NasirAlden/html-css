@@ -80,3 +80,10 @@ img {
 }
 
 @import url('http://fonts.cdnfonts.com/css/maybe-coffee');
+
+@font-face {
+    font-family: 'Maybe Coffee';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Maybe Coffee'), url('fonts//MaybeCoffee-MVzEx.woff') format('woff');
+}

@@ -1,9 +1,25 @@
 body {
+    margin: 0px;
     width: 100vw;
     height: 100vh;
-    background: rgb(133, 9, 144);
-    background: linear-gradient(90deg, rgba(27, 41, 94, 1) 18%, rgba(133, 9, 144, 1) 48%);
+    /* background: linear-gradient(90deg, rgba(27, 41, 94, 1) 18%, rgba(133, 9, 144, 1) 48%); */
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 
+}
+
+body::before {
+    content: "";
+    background-image: url('images\\hitech.webp');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.85;
 }
 
 .main {
@@ -11,8 +27,36 @@ body {
     margin-left: 10vw;
     margin-top: 10vh;
     text-shadow: 3px 1px 1px #020202;
+    position: relative;
+    line-height: 0.9;
+    /* text-align: center; */
 }
 
 a {
-    color: hotpink;
+    color: paleturquoise;
+}
+
+/* img {
+
+    width: 100vw;
+    height: 100vh;
+    background-image:
+        url("images\\hitech.webp");
+    opacity: 0.1;
+} */
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+h2 {
+    font-size: x-large;
+}
+
+h1 {
+    color: orange;
 }
